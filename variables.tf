@@ -20,16 +20,6 @@ variable "availability_zone" {
   }
 }
 
-## iret-gateway
-variable "iret-gw" {
-  type = map(any)
-  default = {
-    gw_ty2 = "210.227.234.114/32"
-    gw_os1 = "211.16.30.174/32"
-    jump   = "54.64.137.251/32"
-  }
-}
-
 ## Managed-GIP
 ## お客様環境からのアクセスで使用される通信元IPアドレスを定義する。
 variable "managed-gip" {
