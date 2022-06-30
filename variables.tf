@@ -1,8 +1,8 @@
 variable "aws_access_key" {}
 variable "aws_secret_key" {}
-variable "rds-db-password" {}
-variable "prd-redshift-password" {}
-variable "simplead-password" {}
+#variable "rds-db-password" {}
+#variable "prd-redshift-password" {}
+#variable "simplead-password" {}
 variable "aws_region" {
   default = "ap-northeast-1"
 }
